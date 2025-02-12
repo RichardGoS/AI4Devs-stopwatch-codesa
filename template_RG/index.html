@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuenta Adelante y Atrás</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main-menu">
+    <button class="main-button" id="countdown-btn">Cuenta Atrás</button>
+    <button class="main-button" id="countup-btn">Cuenta Adelante</button>
+  </div>
+
+  <div id="countdown-screen" class="screen hidden">
+    <h1>Cuenta Atrás</h1>
+    <input type="number" id="countdown-input" placeholder="Ingrese minutos" />
+    <div id="keypad">
+      <button class="control-button" id="start-countdown">Iniciar</button>
+      <button class="control-button" id="stop-countdown">Parar</button>
+      <button class="control-button back-btn" id="back-to-menu-1">Volver</button>
+    </div>
+    <h2 id="countdown-display">00:00</h2>
+  </div>
+
+  <div id="countup-screen" class="screen hidden">
+    <h1>Cuenta Adelante</h1>
+    <h2 id="countup-display">00:00</h2>
+    <div id="keypad">
+      <button class="control-button" id="start-countup">Iniciar</button>
+      <button class="control-button" id="stop-countup">Parar</button>
+      <button class="control-button back-btn" id="back-to-menu-2">Volver</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+Como un profesional en desarrollo y diseño de sotware, crea una pagina web con html y javascript que permita tener dos botones grandes y atractivos uno con titulo de cuenta adelante y otro con titulo cuenta atras.
+
+- Bonton cuenta atras
+## Funcionalidades
+    ## muestra un teclado numerico en cual se inggresar el valor inicial en un input grande de cuenta atras ejemplo : 10 minutos
+    ## el teclado debe incluir boton de inicio y boton de parar el cual el inicio permite iniciar el conteo desde la entrada porporcionada y el parar permite parar el conteo hasta darle en iniciar nuevamente o hasta que la cuenta llegue a cero
+
+- Boton cuenta adelante 
+## Funcionalidades
+    # muestra la pantalla de similar a cuenta atras sin embargo esta solo cuenta con el input y dos botones inicio y parar donde al precionar inicio se inicia el conteo segundo a segundo desde cero hasta que se precione en el boton parar en cual congela el conteo hasta que se de nuevamente en el boton inicio deben incluir boton para regresar a los botones de atras
+
+Separa los archivos de .js .html y .css en archivos distintos
+
+toma como referencia el siguiente juego https://www.online-stopwatch.com/
